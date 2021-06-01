@@ -42,7 +42,7 @@ function Trip(placeName,tripPlace,transport) {
 
 // proto type for including image to the object
 Trip.prototype.image = function (){
-    this.pic = `../img/${this.tripPlace.toUpperCase()}.png`;
+    this.pic = `The-Good-Travel/../img/${this.tripPlace.toUpperCase()}.png`;
 }
 
 
