@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    font-family: 'Righteous', cursive;
+    box-sizing: border-box;
+}
+
+html{
+    background-image: url('../img/background.png');
+}
+
+main{
+    width: 100%;
+    display: block;
+}
+
+header{
+    font-family: 'Righteous', cursive;
+    color: #fffdfe;
+    text-align: center;
+    font-size: 36px;
+
+    background-color: rgba(202, 240, 251, 255);
+    width: 100%;
+    height: 150px;
+
+    display: block;
+    
+}
+
+header img{
+    width: 15%;
+    float: left;
+}
+
+#form{
+    display: inline-block;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: #5d4b7696;
+
+    text-align: center;
+    width: 25%;
+    margin: 2.5%;
+}
+
+label{
+    display: inline-block;
+    padding: 5px;
+    color: #fffdfe;
+}
+
+input, select{
+    border-radius: 7px;
+}
+
+#submitBtn{
+    background-color: #5d4b76 ;
+    border-radius: 7px;
+    margin-top:20%;
+}
+
+#bigContainer{
+    background-color: #5d4b7696;
+    width: 45%;
+    display: inline-block;
+    margin: 2.5%;
+    border-radius: 20px;
+}
+
+#smallContainer{
+    background-color: #fffdfe38 ;
+    border-radius: 20px;
+    margin: 4.7%;
+    width: 90%;
+}
+
+#smallContainer img{
+    width: 17%;
+}
+
+.infoClass{
+    display: inline-block;
+    margin-left: 25%;
+    padding: 25px;    
+}
+
+.locationDiv img{
+    margin-left: 10% ;
+}
