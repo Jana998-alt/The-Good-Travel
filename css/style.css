@@ -28,6 +28,13 @@ header{
     
 }
 
+header h1{
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
 header img{
     width: 15%;
     float: left;
@@ -42,6 +49,8 @@ header img{
     text-align: center;
     width: 25%;
     margin: 2.5%;
+    vertical-align: top;
+    font-size: 20px;
 }
 
 label{
@@ -52,12 +61,14 @@ label{
 
 input, select{
     border-radius: 7px;
+    width: 75%;
 }
 
 #submitBtn{
     background-color: #5d4b76 ;
     border-radius: 7px;
     margin-top:20%;
+    width: 75%;
 }
 
 #bigContainer{
@@ -76,15 +87,35 @@ input, select{
 }
 
 #smallContainer img{
-    width: 17%;
+    /* width: 17%; */
+}
+
+.locationDiv{
+    height: 150px;
+    border-bottom: 3px solid rgb(136, 131, 131);
+    display: grid;
+    grid-template-columns: 2;
+}
+
+.locationDiv ul{
+    grid-column: 2;
+}
+
+
+.locationDiv img{
+    height: 100px;
+    margin: 5%;
+    margin-left: 10% ;
+    display: inline-block;
+    
+    
 }
 
 .infoClass{
-    display: inline-block;
-    margin-left: 25%;
+    display: inline-block;  
+
+    margin-left: 10%;
     padding: 25px;    
+    /* vertical-align: middle; */
 }
 
-.locationDiv img{
-    margin-left: 10% ;
-}
